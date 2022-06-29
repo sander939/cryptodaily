@@ -2,3 +2,9 @@ var string = 1
 {
     "license": "MIT"
 }
+{
+    "$schema": "https://json-schema.org/draft-04/schema#",
+    "title": "Package",
+    "type": "object",
+  
+    }
