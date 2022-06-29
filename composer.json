@@ -1,10 +1,34 @@
-var string = 1
 {
-    "license": "MIT"
-}
-{
-    "$schema": "https://json-schema.org/draft-04/schema#",
-    "title": "Package",
-    "type": "object",
+    "name": "sander939/cryptodaily",
+    "description": " Cryptodaily.",
+    "type": "library",
+    "keywords": ["cryptodaily","bitcoin","handelsrobotar",""],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "homepage": "https://github.com/sander939/cryptodaily/",
+    "authors": [
+        {
+            "name": "Sander Klakegg",
+            "homepage": "https://cryptodaily.se/"
+        }
+    ],
   
+    },
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ramsey/uuid": "^3.0",
+        "guzzlehttp/guzzle": "^6.2.1"
+    },
+    "require-dev": {
+        "rtheunissen/guzzle-log-middleware": "^0.4.0",
+        "monolog/monolog": "^1.17",
+        "cogpowered/finediff": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cryptodaily\\":"src/"
+        }
     }
+}
