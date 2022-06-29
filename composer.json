@@ -2,7 +2,7 @@
     "name": "sander939/cryptodaily",
     "description": " Cryptodaily.",
     "type": "library",
-    "keywords": ["cryptodaily","bitcoin","handelsrobotar],
+    "keywords": ["cryptodaily","bitcoin","handelsrobotar"],
     "minimum-stability": "stable",
     "license": "MIT",
     "homepage": "https://github.com/sander939/cryptodaily/",
