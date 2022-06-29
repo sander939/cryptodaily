@@ -10,9 +10,11 @@
         {
             "name": "Sander Klakegg",
             "homepage": "https://cryptodaily.se/"
-        }
-   
-  
+       }
+    ],
+    "support": {
+        "issues": "https://github.com/sander939/cryptodaily/issues",
+        "source": "https://github.com/sander939/cryptodaily/"
     },
     "require": {
         "php": ">=5.5",
