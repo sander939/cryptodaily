@@ -1,1 +1,2 @@
 # cryptodaily
+Cryptodaily
